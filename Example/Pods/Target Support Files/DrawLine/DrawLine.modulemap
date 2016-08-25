@@ -1,0 +1,6 @@
+framework module DrawLine {
+  umbrella header "DrawLine-umbrella.h"
+
+  export *
+  module * { export * }
+}

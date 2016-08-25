@@ -1,0 +1,23 @@
+PODS:
+  - DrawLine (0.1.0)
+  - FBSnapshotTestCase (2.1.2):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.2)
+  - FBSnapshotTestCase/Core (2.1.2)
+  - FBSnapshotTestCase/SwiftSupport (2.1.2):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - DrawLine (from `../`)
+  - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  DrawLine:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DrawLine: 773ab7ab33fba2c418b4434e1d280d9185b9ae94
+  FBSnapshotTestCase: 918c55861356ee83aee7843d759f55a18ff6982b
+
+PODFILE CHECKSUM: f44eb7e52ef4958ecb1ce8cb36f26896291537db
+
+COCOAPODS: 1.0.1

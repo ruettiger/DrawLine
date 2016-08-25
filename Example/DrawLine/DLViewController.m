@@ -7,7 +7,7 @@
 //
 
 #import "DLViewController.h"
-
+#import "MFSDDrawLineView.h"
 @interface DLViewController ()
 
 @end
@@ -17,6 +17,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    MFSDDrawLineView* _MFSDDrawLineView = [[MFSDDrawLineView alloc]initWithFrame:self.view.bounds];
+    _MFSDDrawLineView.backgroundColor = [UIColor redColor];
+    _MFSDDrawLineView.currentLineWidth = 5.0f;
+    _MFSDDrawLineView.currentLineColor = [UIColor yellowColor];
+    [self.view addSubview:_MFSDDrawLineView];
+    
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
