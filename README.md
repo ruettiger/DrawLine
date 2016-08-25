@@ -1,22 +1,16 @@
 # DrawLine
 涂鸦板
 
-[![CI Status](http://img.shields.io/travis/ruettiger/DrawLine.svg?style=flat)](https://travis-ci.org/ruettiger/DrawLine)
-[![Version](https://img.shields.io/cocoapods/v/DrawLine.svg?style=flat)](http://cocoapods.org/pods/DrawLine)
-[![License](https://img.shields.io/cocoapods/l/DrawLine.svg?style=flat)](http://cocoapods.org/pods/DrawLine)
-[![Platform](https://img.shields.io/cocoapods/p/DrawLine.svg?style=flat)](http://cocoapods.org/pods/DrawLine)
-
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
-
-## Installation
-
-DrawLine is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
 ```ruby
 pod "DrawLine"
 ```
+
+## Example
+
+#import "MFSDDrawLineView.h"
+
+MFSDDrawLineView* _MFSDDrawLineView = [[MFSDDrawLineView alloc]initWithFrame:self.view.bounds];
+_MFSDDrawLineView.backgroundColor = [UIColor colorWithRed:0.192 green:0.985 blue:1.000 alpha:1.000];
+_MFSDDrawLineView.currentLineColor = [UIColor redColor];
+_MFSDDrawLineView.currentLineWidth = 5.0f;
+[self.view addSubview:_MFSDDrawLineView];
