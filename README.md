@@ -1,5 +1,5 @@
 # DrawLine
-<<<<<<< HEAD
+涂鸦板
 
 [![CI Status](http://img.shields.io/travis/ruettiger/DrawLine.svg?style=flat)](https://travis-ci.org/ruettiger/DrawLine)
 [![Version](https://img.shields.io/cocoapods/v/DrawLine.svg?style=flat)](http://cocoapods.org/pods/DrawLine)
@@ -20,14 +20,3 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod "DrawLine"
 ```
-
-## Author
-
-ruettiger, sunqiang0325@126.com
-
-## License
-
-DrawLine is available under the MIT license. See the LICENSE file for more info.
-=======
-涂鸦板
->>>>>>> 24a63201c4de6aa50141c0f7453f525aa90b93e3
